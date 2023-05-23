@@ -11,7 +11,7 @@ import java.util.ArrayList;
 //        is 12.
 public class Solution1 {
   void subArraySum(int arr[], int n , int sum){
-      for (int i=1; i<n; i++){
+      for (int i=1; i<=n; i++){
           int currentSum=arr[i];
           if (currentSum==sum){
               System.out.println("Sum found at index:"+i);
